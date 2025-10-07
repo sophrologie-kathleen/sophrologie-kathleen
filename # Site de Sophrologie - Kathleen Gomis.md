@@ -12,7 +12,7 @@ Site web professionnel pour les services de sophrologie de Kathleen Gomis à La 
 
 ## 🚀 Site en ligne
 
-[https://andyvnt.github.io/sophrologie-kathleen](https://andyvnt.github.io/sophrologie-kathleen)
+**[https://andyvnt.github.io/sophrologie-kathleen](https://andyvnt.github.io/sophrologie-kathleen)**
 
 ## 📧 Contact
 
@@ -24,11 +24,19 @@ Sophrologue certifiée au Centre Européen de Formation
 
 ## 💻 Services
 
-- **Séances individuelles** : 15€ (30min)
+- **Séance Individuelle** : 15€ (30min)
 - **Pack Découverte** : 40€ (3 séances)
 - **Pack Bien-être** : 70€ (5 séances)
 
 Séances en visioconférence sur Zoom.
+
+## 🎯 Spécialités
+
+- Gestion du stress et des douleurs chroniques
+- Amélioration du sommeil et de la concentration
+- Renforcement de la confiance en soi
+- Accompagnement spécialisé endométriose
+- Interventions en milieu scolaire et professionnel
 
 ---
 © 2024 Kathleen Gomis - Tous droits réservés
