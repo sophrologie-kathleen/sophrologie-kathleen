@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kathleen Gomis - Sophrologie à La Châtre</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <img src="./bg-sophro.jpg" alt="" class="header-bg">
+        <h1 class="site-title">☀️ Kathleen Gomis 🌙</h1>
+        <button class="cta-button" id="openRdvModal" style="margin-bottom:20px;">📅 Prendre rendez-vous</button>
+        <p class="sophro-certif">
+            <span style="font-size:1.05em; color:#fff; background:#c99a2e; font-weight:bold; padding:4px 14px; border-radius:8px; box-shadow:0 2px 8px rgba(212,175,55,0.12); letter-spacing:0.5px;">
+                Sophrologue certifié au Centre Européen de Formation
+            </span>
+            <span style="margin-left:8px; font-size:1.1em;">🎓✨</span>
+        </p>
+        <blockquote class="site-quote">
+            <span>« On dit souvent que nous ne croyons que ce que nous voyons mais si, en réalité, nous ne voyons que ce que nous croyons ? »</span>
+        </blockquote>
+    </div>
+    
+    <div class="container">
+        <div class="section">
+            <h2>Qu'est-ce que la Sophrologie ?</h2>
+            <p>La sophrologie est une méthode psychocorporelle qui combine des exercices de respiration, de relaxation musculaire et de visualisation positive. Créée dans les années 1960, elle vise à harmoniser le corps et l'esprit pour améliorer votre bien-être au quotidien.</p>
+            <p>Cette pratique douce et accessible à tous vous permet de développer vos propres capacités à gérer le stress, les émotions, et à retrouver un équilibre intérieur durable.</p>
+            <p style="color:#b85c00; font-size:1.08em; font-style:italic; margin-top:10px;">
+                Cette technique peut venir en complément d'un suivi médical ou psychologique, mais ne se substitue jamais à une thérapie ou à un accompagnement par un médecin.
+            </p>
+            
+            <div class="benefits">
+                <div class="benefit-card">
+                    <h3>🧘‍♀️ Gestion du Stress & Douleurs</h3>
+                    <p>Apprenez à vous détendre, à évacuer les tensions quotidiennes et à soulager les douleurs chroniques (endométriose, etc.).</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>😴 Meilleur Sommeil</h3>
+                    <p>Retrouvez un sommeil réparateur et de qualité</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>💪 Confiance en Soi</h3>
+                    <p>Renforcez votre estime personnelle et vos capacités</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>🎯 Concentration</h3>
+                    <p>Améliorez votre focus et votre clarté mentale</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>💰 Mes Tarifs</h2>
+            <p>En tant que sophrologue certifiée, j'accompagne chaque personne de manière individuelle selon ses besoins spécifiques. Découvrez mes tarifs transparents pour des séances en visioconférence.</p>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card individual">
+                    <div class="pricing-icon">🌺</div>
+                    <h3>Séance Individuelle</h3>
+                    <div class="pricing-price">15€</div>
+                    <div class="pricing-duration">30 minutes</div>
+                    <ul class="pricing-features">
+                        <li>Séance personnalisée en visio</li>
+                        <li>Exercices adaptés à vos besoins</li>
+                        <li>Suivi et conseils</li>
+                        <li>Paiement après la séance</li>
+                    </ul>
+                </div>
+
+                <div class="pricing-card pack-starter">
+                    <div class="pricing-icon">🧘</div>
+                    <h3>Pack Découverte</h3>
+                    <div class="pricing-price">40€</div>
+                    <div class="pricing-duration">3 séances de 30min</div>
+                    <div class="pricing-savings">🎁 Économisez 5€</div>
+                    <ul class="pricing-features">
+                        <li>3 séances personnalisées</li>
+                        <li>Programme d'initiation</li>
+                        <li>Exercices à pratiquer chez vous</li>
+                        <li>Suivi entre les séances</li>
+                    </ul>
+                </div>
+
+                <div class="pricing-card pack-wellness popular">
+                    <div class="pricing-badge">⭐ POPULAIRE</div>
+                    <div class="pricing-icon">🌿</div>
+                    <h3>Pack Bien-être</h3>
+                    <div class="pricing-price">70€</div>
+                    <div class="pricing-duration">5 séances de 30min</div>
+                    <div class="pricing-savings">🎁 Économisez 5€</div>
+                    <ul class="pricing-features">
+                        <li>5 séances personnalisées</li>
+                        <li>Programme complet sur 1 mois</li>
+                        <li>Techniques avancées</li>
+                        <li>Bilan de progression</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pricing-info">
+                <p><strong>💳 Paiement :</strong> Virement, PayPal ou espèces</p>
+                <p><strong>📅 Réservation :</strong> Séances planifiées selon vos disponibilités</p>
+                <p><strong>❌ Annulation :</strong> Gratuite jusqu'à 24h avant</p>
+            </div>
+
+            <!-- Témoignages dynamiques supprimés, remplace par témoignages statiques -->
+            <div class="testimonials">
+                <h3 style="color: #c99a2e; text-align: center; margin-bottom: 20px;">Témoignages</h3>
+                
+                <!-- Conteneur pour les témoignages -->
+                <div id="testimonialsList">
+                    <!-- Témoignages par défaut -->
+                    <div class="testimonial">
+                        <strong>Marie L.</strong>
+                        <p>Les séances avec Kathleen m'ont permis de retrouver une sérénité que je pensais avoir perdue. Je recommande vivement !</p>
+                    </div>
+                    <div class="testimonial">
+                        <strong>Thomas B.</strong>
+                        <p>Approche douce et bienveillante, j'ai appris des techniques que j'utilise maintenant au quotidien.</p>
+                    </div>
+                </div>
+                
+                <!-- Formulaire pour ajouter un témoignage -->
+                <div style="background:#fefdf8; border:2px solid #c99a2e; border-radius:12px; padding:20px; margin-top:20px;">
+                    <h4 style="color:#7a5230; margin-bottom:15px; text-align:center;">✍️ Partagez votre expérience</h4>
+                    <form id="testimonialForm">
+                        <div style="margin-bottom:15px;">
+                            <input type="text" id="testimonialName" placeholder="Votre prénom (optionnel)" 
+                                   style="width:100%; padding:10px; border:1px solid #e8d4b8; border-radius:8px; font-size:1em;">
+                        </div>
+                        <div style="margin-bottom:15px;">
+                            <textarea id="testimonialText" placeholder="Votre avis sur les séances de sophrologie..." required
+                                      rows="4" style="width:100%; padding:10px; border:1px solid #e8d4b8; border-radius:8px; font-size:1em; resize:vertical;"></textarea>
+                        </div>
+                        <button type="submit" class="cta-button" style="width:100%;">
+                            Ajouter mon témoignage
+                        </button>
+                    </form>
+                    <p style="font-size:0.9em; color:#8b6f47; margin-top:10px; text-align:center;">
+                        Votre témoignage apparaîtra directement sur la page
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Pour qui ?</h2>
+            <div class="benefits">
+                <div class="benefit-card">
+                    <h3>👩‍⚕️ Douleurs chroniques & endométriose</h3>
+                    <p>Accompagnement pour soulager les douleurs chroniques, notamment liées à l’endométriose, et améliorer la qualité de vie au quotidien.</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>👨‍👩‍👧‍👦 Public concerné</h3>
+                    <p>Hommes, femmes, enfants à partir de 4-5 ans. Séances adaptées à chaque âge et situation.</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>🏫 &nbsp;Milieu scolaire</h3>
+                    <p>Interventions en écoles, collèges, lycées pour la gestion du stress, des émotions et la préparation aux examens.</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>💼 &nbsp;Milieu professionnel</h3>
+                    <p>Gestion du stress, prévention du burn-out, amélioration du bien-être au travail et accompagnement des équipes.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>💻 Rendez-vous en visio</h2>
+            <div class="location">
+                <p>Pour le moment, les séances se déroulent uniquement en visioconférence sur la plateforme <strong>Zoom</strong></p>
+                <p style="margin-top: 15px;">Séances individuelles sur rendez-vous</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal RDV (doit être en dehors de .container et avant </body>
+    <div id="rdvModal" class="modal" style="display:none;">
+        <div class="modal-content" style="max-width:400px;">
+            <span class="close" id="closeRdvModal" style="float:right; font-size:1.8em; cursor:pointer;">&times;</span>
+            <h2 style="text-align:center;">📅 Prendre rendez-vous</h2>
+            <form id="rdvForm" style="margin:20px auto;">
+                <input type="text" id="rdvFirstName" placeholder="Votre prénom" required style="padding:10px; border-radius:8px; border:1px solid #e8d4b8; width:100%; margin-bottom:10px;">
+                <input type="text" id="rdvLastName" placeholder="Votre nom" required style="padding:10px; border-radius:8px; border:1px solid #e8d4b8; width:100%; margin-bottom:10px;">
+                <input type="tel" id="rdvPhone" placeholder="Votre téléphone" required style="padding:10px; border-radius:8px; border:1px solid #e8d4b8; width:100%; margin-bottom:10px;">
+                <textarea id="rdvMessage" placeholder="Message (obligatoire)" required style="padding:10px; border-radius:8px; border:1px solid #e8d4b8; width:100%; margin-bottom:10px;"></textarea>
+                
+                <div style="margin:15px 0; padding:10px; background:#f8f9fa; border-radius:8px; border:1px solid #e8d4b8;">
+                    <label style="display:flex; align-items:flex-start; cursor:pointer; font-size:0.9em; color:#555;">
+                        <input type="checkbox" id="rdvLegalConsent" required style="margin-right:8px; margin-top:2px; cursor:pointer;" />
+                        <span>J'accepte que mes données personnelles soient collectées et traitées dans le cadre de ma demande de rendez-vous. Ces données ne seront pas partagées avec des tiers et seront utilisées uniquement pour le suivi de ma demande. <em style="color:#7a5230;">*Obligatoire</em></span>
+                    </label>
+                </div>
+                
+                <button type="button" id="rdvBtn" class="cta-button" style="width:100%;">Envoyer la demande</button>
+            </form>
+            <div id="rdvInfo" style="display:none; margin-top:20px; text-align:center;">
+                <p id="rdvInfoText" style="font-size:1.05em; color:#b85c00;"></p>
+            </div>
+            <p style="font-size:0.95em; color:#888; text-align:center;">Après validation, le SMS sera prêt à être envoyé à <strong style="color:#b85c00;">06 22 12 67 46</strong>.</p>
+        </div>
+    </div>
+
+    <footer style="background:#f9f6f0; padding:20px; margin-top:40px; text-align:center; border-top:1px solid #e8d4b8;">
+        <div style="text-align:center; margin-bottom:20px;">
+            <button class="cta-button" onclick="document.getElementById('openRdvModal').click()">📅 Prendre rendez-vous</button>
+        </div>
+        
+        <div style="color:#7a5230; font-size:1em; font-weight:bold; margin-bottom:8px;">
+            Mentions légales : Ce site ne doit pas être copié. Les données personnelles sont sécurisées.
+        </div>
+        <div style="color:#8b6f47; font-size:0.95em;">
+            Kathleen Gomis, Sophrologue certifiée, 36400 La Châtre.<br>
+            Site édité à titre informatif, aucune donnée médicale n'est conservée.
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script>
+        function isMobileDevice() {
+            return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        }
+
+        // Modal RDV
+        document.getElementById('openRdvModal').onclick = function() {
+            document.getElementById('rdvModal').style.display = 'block';
+            setTimeout(() => {
+                document.getElementById('rdvModal').classList.add('show');
+            }, 10);
+            document.body.style.overflow = 'hidden';
+            document.getElementById('rdvForm').style.display = 'block';
+            document.getElementById('rdvInfo').style.display = 'none';
+            document.getElementById('rdvForm').reset();
+        };
+
+        document.getElementById('closeRdvModal').onclick = function() {
+            document.getElementById('rdvModal').classList.remove('show');
+            setTimeout(() => {
+                document.getElementById('rdvModal').style.display = 'none';
+                document.body.style.overflow = 'auto';
+            }, 300);
+        };
+
+        window.onclick = function(event) {
+            if (event.target == document.getElementById('rdvModal')) {
+                document.getElementById('rdvModal').classList.remove('show');
+                setTimeout(() => {
+                    document.getElementById('rdvModal').style.display = 'none';
+                    document.body.style.overflow = 'auto';
+                }, 300);
+            }
+        };
+
+        // Validation du formulaire RDV
+        document.getElementById('rdvBtn').onclick = function() {
+            const firstName = document.getElementById('rdvFirstName').value.trim();
+            const lastName = document.getElementById('rdvLastName').value.trim();
+            const phone = document.getElementById('rdvPhone').value.trim();
+            const message = document.getElementById('rdvMessage').value.trim();
+            const legalConsent = document.getElementById('rdvLegalConsent').checked;
+            
+            if (!firstName || !lastName || !phone || !message) {
+                alert("Merci de remplir tous les champs obligatoires.");
+                return;
+            }
+            
+            if (!legalConsent) {
+                alert("Vous devez accepter les conditions de traitement des données personnelles pour continuer.");
+                return;
+            }
+            
+            document.getElementById('rdvForm').style.display = 'none';
+            document.getElementById('rdvInfo').style.display = 'block';
+            document.getElementById('rdvInfoText').textContent = "Votre demande a été enregistrée. Kathleen vous recontactera rapidement.";
+        };
+
+        // Gestion ULTRA SIMPLE des témoignages avec protection d'erreur
+        document.addEventListener('DOMContentLoaded', function() {
+            try {
+                const testimonialForm = document.getElementById('testimonialForm');
+                
+                if (testimonialForm) {
+                    testimonialForm.addEventListener('submit', function(e) {
+                        e.preventDefault();
+                        
+                        try {
+                            const nameInput = document.getElementById('testimonialName');
+                            const textInput = document.getElementById('testimonialText');
+                            
+                            if (!nameInput || !textInput) {
+                                alert("Erreur: Formulaire incomplet");
+                                return;
+                            }
+                            
+                            const name = nameInput.value.trim() || 'Anonyme';
+                            const text = textInput.value.trim();
+                            
+                            if (!text) {
+                                alert("Merci d'écrire votre avis.");
+                                return;
+                            }
+                            
+                            // Créer le nouveau témoignage
+                            const testimonialDiv = document.createElement('div');
+                            testimonialDiv.className = 'testimonial';
+                            testimonialDiv.innerHTML = `
+                                <strong>${name}</strong>
+                                <p>${text}</p>
+                            `;
+                            
+                            // Ajouter au début de la liste
+                            const testimonialsList = document.getElementById('testimonialsList');
+                            if (testimonialsList) {
+                                testimonialsList.insertBefore(testimonialDiv, testimonialsList.firstChild);
+                                
+                                // Réinitialiser le formulaire
+                                testimonialForm.reset();
+                                
+                                // Message de confirmation
+                                alert("✅ Merci pour votre témoignage ! Il est maintenant visible. 😊");
+                            } else {
+                                alert("Erreur: Impossible d'afficher le témoignage");
+                            }
+                            
+                        } catch (error) {
+                            console.error('Erreur testimonial:', error);
+                            alert("Une erreur est survenue. Merci de réessayer.");
+                        }
+                    });
+                } else {
+                    console.log('Formulaire testimonial non trouvé');
+                }
+            } catch (error) {
+                console.error('Erreur initialisation testimonials:', error);
+            }
+        });
+    </script>
+</body>
+</html>
